@@ -3,6 +3,7 @@
 import React from "react";
 import FloatingBubbles from "./FloatingBubbles";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import SlideFadeWords from "./SlideFadeWords";
 
 export default function Hero() {
   return (
@@ -19,11 +20,23 @@ export default function Hero() {
           Hi, I’m <span className="text-purple-400">Nikhila</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Software Engineer • Product Manager • AI Engineer<br />
+        {/* SLIDE + FADE TEXT */}
+        <p className="text-xl md:text-2xl mt-2">
+          <SlideFadeWords
+            words={[
+              "Software Engineer",
+              "Product Manager",
+            ]}
+            duration={2500}
+          />
+        </p>
+
+        {/* SUB TEXT */}
+        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mt-4">
           I build intelligent systems, 0→1 products, and developer-first experiences.
         </p>
 
+        {/* Social icons */}
         <div className="flex justify-center gap-6 mt-8 text-3xl">
           <a href="https://github.com/nikhilayeturi" target="_blank">
             <FaGithub className="hover:text-purple-400 transition" />
