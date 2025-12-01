@@ -8,15 +8,15 @@ export default function Experience() {
       <div className="space-y-12">
 
         <ExpItem
-          role="Founding Software Engineer (Multiple Hats)"
+          role="Founding Software Engineer (I wear multiple Hats)"
           company="Basyl Health"
           time="Aug 2025 – Present"
           summary="Founding engineer leading engineering, product, design, and early build–measure–learn cycles while architecting the core platform and AI systems."
         />
 
         <ExpItem
-          role="Product Manager & AI Engineer"
-          company="Florence Labs"
+          role="Product Manager & AI Software Engineer"
+          company="Florence Quantum Labs"
           time="Aug 2024 – Aug 2025"
           summary="Led product strategy and engineering for a next-gen forecasting platform while collaborating with research, UX, and cloud infrastructure teams."
         />

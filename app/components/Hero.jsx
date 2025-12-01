@@ -1,22 +1,37 @@
+"use client";
+
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import FloatingBubbles from "./FloatingBubbles";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center px-6 bg-black text-white">
-      <h1 className="text-5xl md:text-6xl font-bold mb-4">
-        Hi, I’m <span className="text-purple-400">Nikhila</span>
-      </h1>
+    <section
+      id="hero"
+      className="relative min-h-screen flex flex-col justify-center items-center text-white bg-black px-6 overflow-hidden"
+    >
+      {/* Background Bubbles */}
+      <FloatingBubbles />
 
-      <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
-        Software Engineer • Product Manager • GenAI Researcher
-        <br></br>  
-        I build intelligent systems, 0→1 products, and frontier-tech research.
-      </p>
+      {/* Content */}
+      <div className="relative z-10 mt-[-80px] text-center">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          Hi, I’m <span className="text-purple-400">Nikhila</span>
+        </h1>
 
-      <div className="flex space-x-6 text-3xl mt-8">
-        <a href="https://github.com/NikhilaYeturi/" target="_blank"><FaGithub /></a>
-        <a href="https://linkedin.com/in/nikhilayeturi" target="_blank"><FaLinkedin /></a>
+        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+          Software Engineer • Product Manager • AI Engineer<br />
+          I build intelligent systems, 0→1 products, and developer-first experiences.
+        </p>
+
+        <div className="flex justify-center gap-6 mt-8 text-3xl">
+          <a href="https://github.com/nikhilayeturi" target="_blank">
+            <FaGithub className="hover:text-purple-400 transition" />
+          </a>
+          <a href="https://linkedin.com/in/nikhilayeturi" target="_blank">
+            <FaLinkedin className="hover:text-purple-400 transition" />
+          </a>
+        </div>
       </div>
     </section>
   );
