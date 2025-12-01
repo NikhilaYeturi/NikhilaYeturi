@@ -9,7 +9,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
-        Software Engineer • Product Manager • Quantum/GenAI Researcher  
+        Software Engineer • Product Manager • GenAI Researcher  
         I build intelligent systems, 0→1 products, and frontier-tech research.
       </p>
 
