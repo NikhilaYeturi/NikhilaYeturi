@@ -15,9 +15,8 @@ export default function Hero() {
       </p>
 
       <div className="flex space-x-6 text-3xl mt-8">
-        <a href="https://github.com" target="_blank"><FaGithub /></a>
+        <a href="https://github.com/NikhilaYeturi/" target="_blank"><FaGithub /></a>
         <a href="https://linkedin.com/in/nikhilayeturi" target="_blank"><FaLinkedin /></a>
-        <a href="mailto:nikhilayeturi23@gmail.com"><FaEnvelope /></a>
       </div>
     </section>
   );
