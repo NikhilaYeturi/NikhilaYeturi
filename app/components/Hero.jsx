@@ -10,7 +10,7 @@ export default function Hero() {
 
       <p className="text-lg md:text-xl text-gray-300 max-w-2xl leading-relaxed">
         Software Engineer • Product Manager • GenAI Researcher
-          
+        <br></br>  
         I build intelligent systems, 0→1 products, and frontier-tech research.
       </p>
 
