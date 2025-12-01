@@ -13,9 +13,9 @@ export default function Contact() {
       </p>
 
       <div className="flex space-x-8 text-3xl">
-        <a href="mailto:nikhilayeturi23@gmail.com" className="hover:text-purple-400">
+        {/* <a href="mailto:nikhilayeturi23@gmail.com" className="hover:text-purple-400">
           <FaEnvelope />
-        </a>
+        </a> */}
 
         <a href="https://github.com" target="_blank" className="hover:text-purple-400">
           <FaGithub />
